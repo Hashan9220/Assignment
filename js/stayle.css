@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  border-block: black;
+}
+.ass{
+  margin: 0;
+  padding: 0;
+  display:flex;
+  background: green;
+  position: relative;
+}
+.ass .one{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  border-color: blue;
+  border-radius: 10px 10px 0 0;
+  color: red;
+  float: left;
+  display: flex;
+}

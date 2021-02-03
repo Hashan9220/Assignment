@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.one{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  width: 50%;
+   height: 320px;
+   background-color: red;
+   display: flex;
+  border-radius: 0 .5px 0 0;
+}
+.one .inone{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100%;
+
+  left: 40%;
+  top: 30%;
+
+}
+.one .inone .in{
+  position: absolute;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  left: 25%;
+  top: 25%;
+
+}
+.two{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 50%;
+  height: 320px;
+  right: 0;
+  background-color: black;
+  display: flex;
+}
+.two .intwo{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100%;
+
+  right: 40%;
+  top: 30%;
+
+}
+.two .intwo .intw{
+  position: absolute;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  left: 25%;
+  top: 25%;
+
+}
+.three{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 50%;
+  height: 305px;
+  bottom: 0;
+  background-color: orange;
+  display: flex;
+}
+.three .inthree{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100%;
+
+  left: 40%;
+  bottom: 30%;
+
+}
+.three .inthree .intr{
+  position: absolute;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  left: 25%;
+  top: 25%;
+
+}
+.fore{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 50%;
+  height: 305px;
+  right: 0;
+  bottom: 0;
+  background-color: purple;
+  display: flex;
+}
+.fore .infore{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 100%;
+
+  right: 40%;
+  bottom: 30%;
+
+}
+.fore .infore .inf{
+  position: absolute;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  left: 25%;
+  top: 25%;
+
+}
+.mid1{
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  left: 43%;
+  top: 40%;
+}
+.mid1 .mid2{
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  left: 25%;
+  top: 25%;
+  border-radius: 100%;
+}
+.lefttop{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  left: 0;
+  top: 0;
+  border-radius: 0 0 100% 0;
+}
+.midtop{
+  position: absolute;
+  width: 140px;
+  height: 70px;
+  background-color: white;
+  left: 45%;
+  top: 0%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+.righttop{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  right: 0;
+  top: 0;
+  border-radius: 0 0 0 100%;
+}
+.leftbot{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 100% 0 0;
+}
+.midbot{
+  position: absolute;
+  width: 140px;
+  height: 70px;
+  background-color: white;
+  left: 45%;
+  bottom: 0%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+.rightbot{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  right: 0;
+  bottom: 0;
+  border-radius: 100% 0 0 0;
+}
